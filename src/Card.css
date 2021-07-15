@@ -1,0 +1,10 @@
+.dayWeather {
+    background-color: rgb(175, 231, 192);
+    border: solid black 5px;
+    width: 100px;
+}
+
+.week {
+    display: flex;
+    justify-content: center;
+}
