@@ -6,8 +6,8 @@ export default function Weather(){
 
 {weatherInfo.map((dayOfWeek) => {
     return (
-    <div className="week">
-    <Card day={dayOfWeek.weekDay}
+    <div key={dayOfWeek.weekDay} className="week">
+    <Card  day={dayOfWeek.weekDay}
     imageUrl={dayOfWeek.imgURL}
     temp={dayOfWeek.temp}
     />
